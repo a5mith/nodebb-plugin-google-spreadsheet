@@ -6,7 +6,7 @@
 
 
     twitchtv.parse = function(postContent, callback) {
-        postContent = postContent.replace(/<a href="(?:http?:\/\/)?(?:twitch\.tv)\/?(.+)">.+<\/a>/g, embed);
+        postContent = postContent.replace(/<a href="(?:www\.?)?(?:twitch\.tv)\/?(.+)">.+<\/a>/g, embed);
         callback(null, postContent);
     };
 
