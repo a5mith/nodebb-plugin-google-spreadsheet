@@ -1,0 +1,14 @@
+{
+	"id": "nodebb-plugin-twitchtv",
+	"name": "NodeBB Twitch Plugin",
+	"description": "NodeBB Plugin that allows users to embed Twitch video inline in their posts.",
+	"url": "https://github.com/a5mith/nodebb-plugin-twitchtv",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true }
+	],
+	"staticDirs": {
+        "css": "./static"
+    }
+
+}
