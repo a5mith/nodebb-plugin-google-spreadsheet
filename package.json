@@ -1,21 +1,21 @@
 {
-  "name": "nodebb-plugin-twitchtv",
+  "name": "nodebb-plugin-google-spreadsheet",
   "version": "0.0.1",
-  "description": "NodeBB TwitchTV Plugin",
+  "description": "NodeBB Google Spreadsheet Plugin",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/a5mith/nodebb-plugin-twitchtv"
+    "url": "https://github.com/a5mith/nodebb-plugin-google-spreadsheet"
   },
   "keywords": [
     "nodebb",
     "plugin",
-    "twitchtv",
+    "spreadsheet",
     "embed",
-    "video"
+    "spreadsheet"
   ],
   "author": {
     "name": "a5mith",
@@ -23,10 +23,10 @@
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/a5mith/nodebb-plugin-twitchtv/issues"
+    "url": "https://github.com/a5mith/nodebb-plugin-google-spreadsheet/issues"
   },
   "readme": "",
   "readmeFilename": "README.md",
-  "_id": "nodebb-plugin-twitchtv@0.0.1",
-  "_from": "nodebb-plugin-twitchtv@~0.0.1"
+  "_id": "nodebb-plugin-google-spreadsheet@0.0.1",
+  "_from": "nodebb-plugin-google-spreadsheet@~0.0.1"
 }
