@@ -5,10 +5,12 @@
 	"url": "https://github.com/a5mith/nodebb-plugin-google-spreadsheet",
 	"library": "./library.js",
 	"hooks": [
-		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true }
+		{ "hook": "static:app.load", "method": "onLoad" },
+		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true}
 	],
 	"staticDirs": {
-        "css": "./static"
-    }
+          "css": "./static"
+        },
+	"minver": "0.5.1"
 
 }
